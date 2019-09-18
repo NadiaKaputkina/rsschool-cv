@@ -1,1 +1,1 @@
-https://github.com/NadiaKaputkina/rsschool-cv/cv
+https://nadiakaputkina.github.io/rsschool-cv/cv
