@@ -14,24 +14,72 @@
 
 ### Languages
 
-**English** Pre-Intermediate
+**English:** Pre-Intermediate
 
-**Russian** Native
+**Russian:** Native
 
 ### Professional skills
 
-**Programming languages:** JavaScript, PHP
+**Programming languages:** JavaScript
 
-**HTML5 & CSS3/SCSS**
+HTML5 & CSS3/SCSS
 
 **Frameworks:** ReactJS
 
 **Version control:** Git
 
-**Responsive design**
+Responsive design
 
-**Photoshop**
+Photoshop
 
 ### Code examples
 
 [List of Employees](https://github.com/NadiaKaputkina/employees_FrontEnd)
+
+###Working experience
+
+* **Junior front end developer at SaM Solutions**
+
+May 2018 - December 2018
+
+Tools & technologies used: HTML/CSS, JavaScript
+
+---
+
+* **Web developer**
+
+August 2010 - June 2012
+
+Web portal Ministry of Justice for Grodno region.
+
+Tools & technologies used: HTML/CSS, JavaScript
+
+---
+
+* **Software developer**
+
+August 2010 - June 2012
+
+Software system for Grodno region government population registry system.
+
+Tools & technologies used: FoxPro 9.0
+
+---
+
+* **Software developer**
+
+August 2009 - August 2010
+
+Warehouse management system for Slonim factory. 
+Development, customization and support of existing software system.
+
+Tools & technologies used:  FoxBASE, FoxPro
+
+###Education
+
+MSC of Computer Science at Grodno State University, Faculty of Mathematics and Informatics
+
+Sep 2004 – July 2009
+
+###Summary
+
