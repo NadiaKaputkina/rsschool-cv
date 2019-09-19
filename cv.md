@@ -36,7 +36,7 @@ Photoshop
 
 [List of Employees](https://github.com/NadiaKaputkina/employees_FrontEnd)
 
-###Working experience
+### Working experience
 
 * **Junior front end developer at SaM Solutions**
 
@@ -75,11 +75,12 @@ Development, customization and support of existing software system.
 
 Tools & technologies used:  FoxBASE, FoxPro
 
-###Education
+
+### Education
 
 MSC of Computer Science at Grodno State University, Faculty of Mathematics and Informatics
 
 Sep 2004 – July 2009
 
-###Summary
+### Summary
 
