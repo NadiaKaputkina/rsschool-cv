@@ -84,3 +84,4 @@ Sep 2004 – July 2009
 
 ### Summary
 
+My goal is to become a Front End Expert level developer. Interested in developing enterprise systems using the ReactJS framework.
