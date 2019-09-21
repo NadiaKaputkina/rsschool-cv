@@ -2,21 +2,163 @@ body {
   font-size: 62.5%;
   font-family: "Arial", "Times New Roman", sans-serif;
 
-  background-color: #808080;
+  background-color: #b9b979;
 }
 
 .container {
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  align-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
   width: 1024px;
-  margin: auto;
+  margin: 0 auto;
   padding: 30px;
 
   font-size: 1rem;
   color: inherit;
 
-  background-color: #cbcbcb;
+  background-color: #e1e1d0;
 }
 
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 35%;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 65%;
+}
+
+section {
+  margin: 10px;
+  padding: 15px 25px;
+
+  box-shadow: 0 0 10px #444422;
+}
+
+.personal h1,
+.personal p {
+  margin: 0;
+
+  text-align: center;
+  color: #55552b;
+}
+
+h3 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.left h3 {
+  color: #b9b979;
+
+  text-transform: uppercase;
+}
+
+.right h3 {
+  color: #55552b;
+
+  text-transform: uppercase;
+}
+
+span {
+  margin-right: 10px;
+}
+
+a {
+  color: inherit;
+
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b9b979;
+
+  text-decoration: underline;
+}
+
+.contact-info,
+.social,
+.languages,
+.summary {
+  color: #ffffff;
+
+  background-color: #55552b;
+  border: 1px solid #55552b;
+}
+
+.personal,
+.skills,
+.code-examples,
+.working-experience,
+.education {
+  background-color: #fffffc;
+  border: 1px solid #55552b;
+}
+
+.summary p {
+  line-height: 1.5;
+}
+
+.skills:not(h3, hr) {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.skill {
+  float: left;
+  width: 295px;
+  margin: 5px 0;
+}
+
+.skills div:nth-of-type(2) {
+  float: right;
+}
+
+.skill label {
+  margin-right: 10px;
+}
+
+.skill progress {
+  width: 130px;
+
+  vertical-align: text-top;
+
+  -webkit-appearance: none;
+}
+
+.skill progress::-webkit-progress-bar {
+  background-color: #fffff0;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.skill progress::-webkit-progress-value {
+  background-color: #b9b979;
+}
+
+.working-experience .job {
+  margin: 25px 0;
+}
+
+.job p {
+  margin: 8px 0;
+}
+
+p.date {
+  margin: 5px 0;
+
+  color: #96964f;
+}
+
+.job strong,
+.education strong {
+  color: #444a08;
+}
