@@ -41,11 +41,24 @@ section {
   box-shadow: 0 0 10px #444422;
 }
 
+.personal {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin: 10px;
+}
+
+.personal > * {
+  margin: 5px 0;
+  align-self: center;
+
+  color: #55552b;
+}
+
 .personal h1,
 .personal p {
-  margin: 0;
-
   text-align: center;
+
   color: #55552b;
 }
 
@@ -116,10 +129,6 @@ a:hover {
   float: left;
   width: 295px;
   margin: 5px 0;
-}
-
-.skills div:nth-of-type(2) {
-  float: right;
 }
 
 .skill label {
