@@ -162,3 +162,16 @@ p.date {
 .education strong {
   color: #444a08;
 }
+
+@media only screen and (max-width:640px) {
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+  .left {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+  }
+}
