@@ -41,11 +41,24 @@ section {
   box-shadow: 0 0 10px #444422;
 }
 
+.personal {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin: 10px;
+}
+
+.personal > * {
+  margin: 5px 0;
+  align-self: center;
+
+  color: #55552b;
+}
+
 .personal h1,
 .personal p {
-  margin: 0;
-
   text-align: center;
+
   color: #55552b;
 }
 
@@ -118,10 +131,6 @@ a:hover {
   margin: 5px 0;
 }
 
-.skills div:nth-of-type(2) {
-  float: right;
-}
-
 .skill label {
   margin-right: 10px;
 }
@@ -161,4 +170,17 @@ p.date {
 .job strong,
 .education strong {
   color: #444a08;
+}
+
+@media only screen and (max-width:640px) {
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+  .left {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+  }
 }
