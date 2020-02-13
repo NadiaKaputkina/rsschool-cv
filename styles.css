@@ -85,8 +85,6 @@ span {
 
 a {
   color: inherit;
-
-  text-decoration: none;
 }
 
 a:hover {
@@ -96,6 +94,7 @@ a:hover {
 }
 
 .contact-info,
+.skills,
 .social,
 .languages,
 .summary {
@@ -106,7 +105,6 @@ a:hover {
 }
 
 .personal,
-.skills,
 .code-examples,
 .working-experience,
 .education {
