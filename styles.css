@@ -123,15 +123,14 @@ a:hover {
   justify-content: space-between;
 }
 
-.skill {
+.skill{
   float: left;
   width: 295px;
   margin: 5px 0;
 }
 
 .skill li {
-  margin: 10px;
-  
+  padding: 10px;
 }
 
 .working-experience .job {
